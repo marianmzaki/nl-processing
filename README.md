@@ -11,7 +11,30 @@ Node and express is the webserver and routing, and webpack is the building tool.
 
 We use Jest to test.
 
+## Archticture 
+The Code is organized into folder:
+
+### src
+#### client
+##### views
+
+Contains the HTML page to be shown.
+
+##### js
+Contains the JS files like handle the submit and validate the url
+
+##### styles:
+Contains the styling scss files.
+
+##### __test__
+Contains the testing files. 
+
+#### server
+Contains the server code that respond to the client and call an external API and send the result back to displayed. 
+
 ## How to run the project
+
+First run npm install.
 
 To start the webpack dev server at port 8081
 ` $ npm run start`
