@@ -11,7 +11,6 @@ Node and express is the webserver and routing, and webpack is the building tool.
 
 We use Jest to test.
 
-
 ## How to run the project
 
 To start the webpack dev server at port 8081
@@ -43,23 +42,17 @@ Testing is done with Jest. To run test, use the command
 `npm run test`. 
 
 
-
 ## Interactions
 
 ### Home page
 
-
-It is a single page web app. It has a single form input field that accepts user input(URL), then runs a check to make sure it is a valid URL. If it is not a valid URL, the following message will be displayed;
-
-### Invalid URL message
-
+It is a single page web app. It has a single form input field that accepts user input(URL), then runs a check to make sure it is a valid URL. If it is not a valid URL, the error message will be displayed as alert.
 
 
 If the URL is valid, an api call will be initiated and the result displayed on the web page as shown below;
 
 ### API response
 
-
-The page built for this project is a simple one. It has a form with a single filed which receives an input. This input is checked for valid url. A helpful error message is displayed for invalid url. If the url is valid, then an api call is performed and the result displayed on the page.
+if the url is valid, then an api call is performed and the result displayed on the page.
 
 
